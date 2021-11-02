@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Nurito';
+    src: url(../fonts/nurito-sans/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Digital';
+    src: url(../fonts/digital-display/digital-display-tfb.ttf);
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#ffffff, #ddd9ce );
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#corpo-calculadora {
+    height: 450px;
+    width: 370px;
+    background-image: linear-gradient(#ededed,#acadb1);
+    border: #b2b2b2 1px solid;
+    border-radius: 10px;
+}
+
+#corpo-tela-calculadora {
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: #717274 1px solid;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#cabecalho-tela-calculadora {
+    height: 20px;
+    width: 327px;
+}
+
+#tilibra {
+    height: 23px;
+    width: 48px;
+    border: #3a3a3c 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tilibra > div {
+    height: 19px;
+    width: 44px;
+    border: #3a3a3c 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tilibra > div > p {
+    font-family: 'Nurito';
+    font-size: 15px;
+}
+
+#mini-display {
+    height: 27px;
+    width: 83px;
+    background-color: #404038;
+    float: right;
+    margin-top: -25px;
+    margin-right: 44px;
+    border-radius: 3px;
+}
+
+#tela-preta-display {
+    height: 92px;
+    width: 327px;
+    background-color: #393834;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#tela-display {
+    height: 66px;
+    width: 265px;
+    background-color: #b2bfc7;
+    border-bottom: #cdd5d7 1px solid;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-family: 'Digital';
+    text-align: right;
+    font-size: 65px;
+}
+
+#corpo-teclado-calculadora {
+    height: 50px;
+    width: 327px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#container-linha-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.btn-linha1 {
+    height: 32px;
+    width: 57px;
+    background-color: #000403;
+    border-radius: 5px;
+    color: #f6f8f7;
+    font-size: 16px;
+    font-weight: bold;
+    border: #272727 1px solid;
+}
+
+#btn-ce {
+    background-color: #96425c;
+    border: #883e55 1px solid;
+}
+
+#container-linha-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.btn-linha2 {
+    height: 42px;
+    width: 57px;
+    background-color: #000403;
+    border-radius: 5px;
+    color: #f6f8f7;
+    font-size: 16px;
+    font-weight: bold;
+    border: #272727 1px solid;
+}
+
+#container-linha-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.btn-linha3 {
+    height: 42px;
+    width: 57px;
+    background-color: #000403;
+    border-radius: 5px;
+    color: #f6f8f7;
+    font-size: 16px;
+    font-weight: bold;
+    border: #272727 1px solid;
+}
+
+#container-linha-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.btn-linha4 {
+    height: 42px;
+    width: 57px;
+    background-color: #000403;
+    border-radius: 5px;
+    color: #f6f8f7;
+    font-size: 16px;
+    font-weight: bold;
+    border: #272727 1px solid;
+}
+
+#container-linha-5 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.btn-linha5 {
+    height: 42px;
+    width: 57px;
+    background-color: #000403;
+    border-radius: 5px;
+    color: #f6f8f7;
+    font-size: 16px;
+    font-weight: bold;
+    border: #272727 1px solid;
+}
+
+.btn-grey {
+    background-color: #959595;
+    border: #808080 1px solid;
+}
+
